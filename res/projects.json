@@ -1,0 +1,33 @@
+{
+	Construction d’un toit sur la place Nikitotek en partenariat avec l’entreprise privée.  :[],
+	Hydro-Sherbrooke :[
+		{ 'value':800000, 'purpose':"pour des travaux à la centrale Memphrémagog."}],
+	Parcs de Sherbrooke :[
+		{ 'value':400000, 'purpose':"pour la mise aux normes des infrastructures au mont Bellevue."},
+		{ 'value':500000, 'purpose':"pour l’aménagement de trois nouveaux parcs."},
+		{ 'value':700000, 'purpose':"pour la remise à neuf de la piscine du parc de Saint-Alphonse-de-Liguori et des travaux à la piscine du parc Centennial."}],
+	Transport actif : 2,6 M$ :[
+		{ 'value':750000, 'purpose':"pour la réfection de trottoirs."},
+		{ 'value':750000, 'purpose':"pour la construction de nouveaux trottoirs."},
+		{ 'value':500000, 'purpose':"pour le réseau des pistes cyclables."}],
+	Société d’histoire de Sherbrooke et place Nikitotek :[
+		{ 'value':450000, 'purpose':"pour la réfection de l’immeuble patrimonial."}],
+	Garage municipal  :[],
+	Aéroport de Sherbrooke :[
+		{ 'value':300000, 'purpose':"pour le remplacement des réservoirs de carburant."}],
+	Service de protection contre les incendies (SPCIS):[
+		{ 'value':750000, 'purpose':"pour l’achat de deux autopompes."}],
+	Centre communautaire de Brompton :[],
+	Rue King Est et autres secteurs commerciaux :[
+		{ 'value':150000, 'purpose':"pour le plan particulier d’urbanisme de la rue King Est."},
+		{ 'value':100000, 'purpose':"pour le secteur de Lennoxville."},
+		{ 'value':100000, 'purpose':"pour le secteur de Saint-Élie."},
+		{ 'value':50000, 'purpose':"pour le secteur de Brompton."}],
+	Centre-ville de Sherbrooke :[
+		{ 'value':250000, 'purpose':"pour le programme d’aide à la rénovation des façades et des locaux commerciaux."},
+		{ 'value':300000, 'purpose':"pour  la  revitalisation  du  centre-ville  (accès  à  la  propriété,  développement  des coopératives d’habitation)."}],
+	Boulevard de Portland et boulevard René-Lévesque :[],
+	Terrains sportifs :[
+		{ 'value':595000, 'purpose':"pour  différents  travaux  dont  la  conversion  de  terrains  de  baseball  en  terrains  de soccer."}],
+	Pavage des rues de Sherbrooke et autres travaux :[
+		{ 'value':400000, 'purpose':"pour des interventions visant à réduire le risque d’inondation."}]}
