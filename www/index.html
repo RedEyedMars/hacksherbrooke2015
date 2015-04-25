@@ -4,15 +4,24 @@
 <title>Sherbrooke Pour Vous | Sherbrooke For You</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/grid.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 <script src="js/lib/jquery-2.1.3.js"></script>
 <script src="js/lib/knockout-3.3.0.js"></script>
 <script src="js/lib/pager.js"></script>
-<script src="js/lib/d3.js"></script>
+<script src="js/lib/d3.js" charset="UTF-8"></script>
 <script src="js/viewModel.js"></script>
 <body>
+<header>
+	<nav>
+		<ul data-bind="foreach:mainNav">
+			<li class="navItem">
+				<a data-bind="text: text, attr:{href: url}"></a>
+			</li>
+		</ul>
+	</nav>
+</header>
 	<div id="main" class="grid grid--full">
-		<div class="grid__item one-quarter">
+		<div class="sideNav grid__item one-quarter">
 			
 		</div>
 		<div class="grid__item three-quarters">
