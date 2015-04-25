@@ -1,0 +1,31 @@
+reason,id,Sans_Ventilation, Ventilation, Total
+Revenus Fonctionnement-Taxes,1,191484900,,191484900
+Revenus Fonctionnement-Compensations tenant lieu de taxes,2,17678150,,17678150
+Revenus Fonctionnement-Quotes-parts,3,,,
+Revenus Fonctionnement-Transferts,4,9468250,,9468250
+Revenus Fonctionnement-Services rendus,5,174893150,,174893150
+Revenus Fonctionnement-Imposition de droits,6,7540300,,7540300
+Revenus Fonctionnement-Amendes et pénalités,7,6296200,,6296200
+Revenus Fonctionnement-Intérêts,8,1400000,,1400000
+Revenus Fonctionnement-Autres revenus,9,142000,,142000
+Revenus Fonctionnement-Total,10,408902950,,408902950
+Investissement-Taxes,11,,,
+Investissement-Quotes-parts,12,,,
+Investissement-Transferts,13,17079000,,17079000
+Investissement-Autres revenus-Contributions des promoteurs,14,,,
+Investissement-Autres revenus-Autres,15,62500,,62500
+Investissement-Quote-part dans les résultats nets d'entreprises municipales,16,17141500,,17141500
+Investissement-Total,17,,,
+Cumalitive Total,18,426044450,,426044450
+Charges-Administration générale,19,37569800,1914800,39484600
+Charges-Sécurité publique,18,55176900,2768650,57945550
+Charges-Transport,21,43888100,14166050,58054150
+Charges-Hygiène du milieu,22,30694400,12408050,43102450
+Charges-Santé et bien-être,23,5386900,71700,5458600
+Charges-Aménagement urbanisme et développement,24,16981200,1932050,18913250
+Charges-Loisirs et culture,25,33420250,3928400,37348650
+Charges-Réseau d'électricité,26,128189850,7097250,135287100
+Charges-Frais de financement,27,17098550,,17098550
+Charges-Amortissement des immobilisations,28,44286950,44286950,
+Charges-Total,29,412692900,191484900,412692900
+Excédent (déficit) de l'exercice,30,13351550,17678150,13351550
