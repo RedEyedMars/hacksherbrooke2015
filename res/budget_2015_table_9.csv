@@ -4,11 +4,11 @@ Administration générale,1,
    Autres,4,
 ,,
 Sécurité publique,,
-   Police,5, 35 500 
-   Sécurité incendie,6, 78 100 
+   Police,5,35500
+   Sécurité incendie,6,78100
    Sécurité civile,7,
    Autres,8,
-,9, 113 600 
+,9,113600
 Transport,,
    Réseau routier,,
       Voirie municipale,10,
@@ -47,42 +47,42 @@ Santé et bien-être,,
 ,36,
 ,,
 Loisirs et culture,,
-   Activités récréatives,37,27 750 
+   Activités récréatives,37,27750
    Activités culturelles,,
       Bibliothèques,38,
       Autres,39,
-,40, 27 750 
+,40,27750
 Réseau d'électricité,41,
-,42, 141 350 
+,42,141350
 AUTRES SERVICES RENDUS ,,
-Administration générale,43, 587 600 
-Sécurité publique,44, 483 000 
+Administration générale,43,587600
+Sécurité publique,44,483000
 Transport,,
-   Réseau routier,45, 2 246 000 
+   Réseau routier,45,2246000
    Transport collectif,,
       Transport en commun,,
             Transport régulier,46,
             Transport adapté,47,
             Transport scolaire,48,
       Autres,49,
-   Autres,50, 128 850 
-Hygiène du milieu,51, 450 400 
+   Autres,50,128850
+Hygiène du milieu,51,450400
 Santé et bien-être,52,
-"Aménagement, urbanisme et développement",53, 1 205 000 
-Loisirs et culture,54, 1 387 350 
-Réseau d'électricité,55, 168 263 600 
-,56, 174 751 800 
-TOTAL DES SERVICES RENDUS,57, 174 893 150 
+"Aménagement, urbanisme et développement",53,1205000
+Loisirs et culture,54,1387350
+Réseau d'électricité,55,168263600
+,56,174751800
+TOTAL DES SERVICES RENDUS,57,174893150
 ,,
 IMPOSITION DE DROITS,,
-Licences et permis,58, 926 000 
-Droits de mutation immobilière,59, 6 614 300 
+Licences et permis,58,926000
+Droits de mutation immobilière,59,6614300
 Droits sur les carrières et sablières,60,
 Autres,61,
-,62, 7 540 300 
-AMENDES ET PÉNALITÉS,63, 6 296 200 
+,62,7540300
+AMENDES ET PÉNALITÉS,63,6296200
 ,,
-INTÉRÊTS,64, 1 400 000 
+INTÉRÊTS,64,1400000
 ,,
 AUTRES REVENUS,,
 Gain (perte) sur cession d'immobilisations,65,
@@ -91,6 +91,6 @@ Gain (perte) sur cession de placements,67,
 Contributions des promoteurs,68,
 Contributions des automobilistes pour le transport en commun,69,
 Contributions des organismes municipaux,70,
-Autres contributions,71, 204 500 
+Autres contributions,71,204500
 Autres,72,
-,73, 204 500 
+,73,204500
