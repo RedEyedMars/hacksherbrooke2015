@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <title>Googlemaps Heatmap Layer</title>
+    <title>ZapMap</title>
     <style>
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
@@ -17,14 +17,19 @@
     <script src="js/zap_pts.js"></script>
   </head>
   <body>
-    <h1>Gmaps Heatmap Overlay Example</h1>
+
+
+
     <div id="map-canvas"></div>
     
+
+
+
     <script>
         // map options,
         var myOptions = {
           zoom: 13,
-          center: new google.maps.LatLng(45.4018701,-71.9000067);
+          center: new google.maps.LatLng(45.4018701,-71.9000067)
         };
         // standard map
         map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
@@ -32,7 +37,7 @@
         heatmap = new HeatmapOverlay(map, 
           {
             // radius should be small ONLY if scaleRadius is true (or small radius is intended)
-            "radius": 2,
+            "radius": 20,
             "maxOpacity": 1, 
             // scales the radius based on map zoom
             "scaleRadius": false, 
@@ -41,21 +46,19 @@
             //   (there will always be a red spot with useLocalExtremas true)
             "useLocalExtrema": true,
             // which field name in your data represents the latitude - default "lat"
-            latField: 'latitude',
+            latField: 'lat',
             // which field name in your data represents the longitude - default "lng"
-            lngField: 'longitude',
+            lngField: 'lng',
             // which field name in your data represents the data value - default "value"
             valueField: 'count'
           }
         );
 
-        var ZAPdata = {
-          max: 200,
-          data: $.map(zap_pts, function(el) { return el.latitude; }
-        };
-
-        heatmap.setData(testData);
+        heatmap.setData(zapData);
 
 </script>
+
+
+
   </body>
 </html>
