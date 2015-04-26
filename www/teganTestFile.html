@@ -47,12 +47,7 @@
 <script>
 	var knockoutBindingPoint = $("body")[0];
 	var vm = new viewModel(mainNavdata, sideNavData);
-
-	pager.useHTML5history = true;
-	pager.Href5.history = History;
-	pager.extendWithPage(vm);
 	ko.applyBindings(vm, knockoutBindingPoint);
-	pager.startHistoryJs();
 </script>
 </body>
 </html>

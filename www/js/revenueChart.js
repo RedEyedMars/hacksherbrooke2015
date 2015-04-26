@@ -1,51 +1,66 @@
-var chartData = [
-    	{
-    		key: "totals",
-    		values: []
-    	}
-    ];
-var chart
-d3.csv("static.jordanslaman.com/hacksherbrooke2015/temp.csv", function(error, data){
-		// create an empty object that nv is expecting
 
+function initChart(csvFile, chartId, format,chartTitle, xAxisName, yAxisName, xAxisFieldName, yAxisFieldNames)
+{
+  
+  d3.csv(csvFile, function(error, data){
+     chartData = [];
+     
+      yAxisFieldNames.forEach(function (fieldName,i){
+           vals = [];     
+           data.forEach(function (d){
+             item = {}
+	     item["label"] = d[xAxisFieldName]+" "+d["pageID"]+"."+d["id"];
+             item["value"] = +d[fieldName];
+             vals.push(item);
+          })
+          chartData[i] = { key: fieldName, values: vals };
 
-        // populate the empty object with your data
-    data.forEach(function (d){
-    	d.current_year = +d.current_year
-    	chartData[0].values.push(d)
-    })
-
- 	nv.addGraph(function() {
-		
-   		chart = nv.models.discreteBarChart()
-       		.x(function (d) { return d.Item_EN })
-       		.y(function (d) { return d.current_year })
+     });
+     nv.addGraph(function() {
+	var chart;
+	if(format=="bar")
+        {
+	   chart = nv.models.discreteBarChart()
+       		.x(function (d) { return d["label"]})
+       		.y(function (d) { return d["value"] })
        		.staggerLabels(true)
        		.tooltips(true)
        		.showValues(false)
- 
- 	  	d3.select('#chart')
-    			.datum(chartData)
-    			.attr("id", function (d) { console.log(d); })
+       }
+       else if(format=="multiBarChart")
+       {
+	   chart = nv.models.multiBarChart()
+       		.x(function (d) { return d["label"]})
+       		.y(function (d) { return d["value"] })
+       		.staggerLabels(true)
+       	   if(yAxisFieldNames.length>1){
+		chart.tooltips(true).showControls(true)
+	   }
+       }
+       chart.xAxis
+                .axisLabel(xAxisName);
+                //.tickFormat(d3.format(',r'));
+
+       chart.yAxis
+                .axisLabel(yAxisName);
+
+	d3.select('#svg_'+chartId)
+    		.datum(chartData)
+    		.attr("id", function (d) { console.log(d); })
     		.transition().duration(500)
-       			.call(chart);
+       		.call(chart);
+	d3.select('#chart svg')
+ 		 .append("text")
+  		.attr("x", 200)             
+  		.attr("y", 100)
+ 		.attr("text-anchor", "middle")  
+  		.text(chartTitle);
  
-   		nv.utils.windowResize(chart.update);
-   		return chart;
- 	});
+   	nv.utils.windowResize(chart.update);
+   	return chart;
+    });
 
  });
-
-function changeChart(csvFile, yFieldName){
-  d3.csv(csvFile, function(error, data){
-		// create an empty object that nv is expecting
-
-    chartData[0].values.length = 0;
-        // populate the empty object with your data
-    data.forEach(function (d){
-    	d[yFieldName] = +d[yFieldName]
-    	chartData[0].values.push(d)
-    }) 
-    chart.update();
-  });
 }
+
+
