@@ -54,7 +54,6 @@ var viewModel = function(mainNavdata, sideNavData){
 			tempArray.push(new chartViewModel(chart, i));
 
 		});
-
 		self.charts(tempArray);
 
 	}
