@@ -22,7 +22,7 @@ h2 {margin: 14px 0 6px 0;font-size:15px;font-weight: 600;max-width: 100%;text-ov
 }
 
 #search select {width:100%;border:1px solid #ccc;border-radius:4px;height:20px;}
-
+.lang {display:inline-block;color:#fff;}
 
 .chart {height:300px;margin-top:24px;}
 .chart > div, .chart > svg {height:80%;}

@@ -9,9 +9,6 @@ var staticData = {
 	},{
 		"text" : "Pressroom",
 		"url" : "http://www.ville.sherbrooke.qc.ca/en/pressroom/"
-	},{
-		"text" : "Fr",
-		"url" : "http://www.ville.sherbrooke.qc.ca/fr/"
 	}
 	],
 	

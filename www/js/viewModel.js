@@ -16,15 +16,6 @@ var viewModel = function(mainNavdata, sideNavData){
 		self.searchCharts();
 	});
 
-	self.langToggle = function(a, b, c){
-console.log(a);
-console.log(b);
-
-console.log(c);
-
-
-	}
-
 	self.searchCharts = function(){
 		var tempArray = [];
 		var tags = self.selectedTags();
@@ -50,8 +41,6 @@ console.log(c);
 				}
 			});
 		});
-
-
 	}
 
 	self.changeContext = function(navItem, navObj, evt){
@@ -84,7 +73,7 @@ console.log(c);
 
 		ko.utils.arrayForEach(self.allTags(), function(tag){
 			if (menuItem.toLowerCase() == tag.toLowerCase()){
-				self.selectedTags(new Array(tag));
+				self.selectedTags.push(tag);
 				return;
 			}
 		});
