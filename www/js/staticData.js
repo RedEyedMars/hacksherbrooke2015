@@ -39,9 +39,10 @@ var staticData = {
 		"page" : "dataVis7"
 	}
 	],
-charts : [
+	
+	charts : [
 			{
-				"tags": ["ZAP," "wifi", "wireless", "internet", "map", "heatmap", "sans fil", "sansfil", "carte", "tourist", "touristique", "businesses"],
+				"tags": ["ZAP", "wifi", "wireless", "internet", "map", "heatmap", "sans fil", "sansfil", "carte", "tourist", "touristique", "businesses"],
 				"title": {"en" : "ZAP Heatmap", "fr" : "Hotspots Zap"},
 				"sources" : [""],
 				"type" : "map",

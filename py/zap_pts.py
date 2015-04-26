@@ -1,7 +1,7 @@
 #Generates a javascript file/variable for heatmapjs to use
 
 
-#python zap_pts.py ../res/zap_points_raw
+#python zap_pts.py
 #copy zap_pts.js to our js folder
 
 import csv
