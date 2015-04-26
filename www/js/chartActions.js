@@ -38,10 +38,11 @@ var chartActions = {
 		    );
 			heatmap.setData(zapData);
 		} else {
+			console.log(chart.data()[0]);
 			var mapLayer = new google.maps.KmlLayer({
-		    url: chart.source()[0]
-		  });
-		  mapLayer.setMap(map);
+			    url: chart.data()[0]
+			  });
+			mapLayer.setMap(map);
 		}
 
 	}
