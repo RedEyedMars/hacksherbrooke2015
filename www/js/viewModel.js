@@ -14,7 +14,7 @@ var viewModel = function(mainNavdata, sideNavData){
 
 	self.searchCharts = function(){
 		var tempArray = [];
-		var tags = ko.selectedTags();
+		var tags = self.selectedTags();
 
 		ko.utils.arrayForEach(self.charts, function(chart){
 

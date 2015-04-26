@@ -27,7 +27,7 @@
 	<div id="main" class="grid grid--full">
 		<nav class="sideNav grid__item one-quarter">
 		<div id="search">
-			<select type="text" data-bind="options: allTags" size="15" multiple></select>
+			<select type="text" data-bind="options: allTags, selectedOptions: selectedTags" size="15" multiple></select>
 		</div>
 			<ul data-bind="foreach:sideNav">
 				<li class="sideNavItem" data-bind=" click: null">
@@ -39,9 +39,7 @@
 			<ul class="grid" data-bind="foreach: filteredCharts, afterRender: renderChart">
 				<li class="grid__item one-third">
 					<!-- ko if: type() === "map" -->
-					<div data-bind="attr:{'id': 'map-canvas_' + id()}">
-						
-					</div>
+					<div data-bind="attr:{'id': 'map-canvas_' + id()}"></div>
 					<!-- /ko -->
 					<!-- ko if: type() !== "map" -->
 					<svg data-bind="attr:{'id': 'svg_' + id()}"></svg>
