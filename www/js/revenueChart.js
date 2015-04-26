@@ -3,7 +3,7 @@ function initChart(csvFile, chartId, format,chartTitle, xAxisName, yAxisName, xA
 {
   
   d3.csv(csvFile, function(error, data){
-     chartData = [];
+     var chartData = [];
      
       yAxisFieldNames.forEach(function (fieldName,i){
            vals = [];     
@@ -11,6 +11,7 @@ function initChart(csvFile, chartId, format,chartTitle, xAxisName, yAxisName, xA
              item = {}
 	     item["label"] = d[xAxisFieldName]+" "+d["pageID"]+"."+d["id"];
              item["value"] = +d[fieldName];
+	     console.log(d);
              vals.push(item);
           })
           chartData[i] = { key: fieldName, values: vals };
@@ -49,12 +50,6 @@ function initChart(csvFile, chartId, format,chartTitle, xAxisName, yAxisName, xA
     		.attr("id", function (d) { console.log(d); })
     		.transition().duration(500)
        		.call(chart);
-	d3.select('#chart svg')
- 		 .append("text")
-  		.attr("x", 200)             
-  		.attr("y", 100)
- 		.attr("text-anchor", "middle")  
-  		.text(chartTitle);
  
    	nv.utils.windowResize(chart.update);
    	return chart;
