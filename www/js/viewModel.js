@@ -12,12 +12,15 @@ var viewModel = function(mainNavdata, sideNavData){
 	self.allTags = ko.observableArray()
 	self.selectedTags = ko.observableArray();
 
+	self.selectedTags.subscribe(function(){
+		self.searchCharts();
+	});
+
 	self.searchCharts = function(){
 		var tempArray = [];
 		var tags = self.selectedTags();
 
-		ko.utils.arrayForEach(self.charts, function(chart){
-
+		ko.utils.arrayForEach(self.charts(), function(chart){
 			ko.utils.arrayForEach(chart.tags(), function(tag){
 				if (tag in tags){
 					tempArray.push(chart);
@@ -27,7 +30,8 @@ var viewModel = function(mainNavdata, sideNavData){
 		})
 		// Temp
 		self.filteredCharts(tempArray);
-	};
+		console.log("Rendering " + self.filteredCharts().length + ' charts');
+	}
 
 	self.initializeSearch = function(){
 		ko.utils.arrayForEach(self.charts(), function (chart, i) {
