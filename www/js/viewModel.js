@@ -22,11 +22,11 @@ var viewModel = function(mainNavdata, sideNavData){
 
 		ko.utils.arrayForEach(self.charts(), function(chart){
 			ko.utils.arrayForEach(chart.tags(), function(tag){
-				if (tag in tags){
+				if (tags.indexOf(tag) >= 0){
 					tempArray.push(chart);
+					return;
 				}
 			})
-
 		})
 		// Temp
 		self.filteredCharts(tempArray);
@@ -36,9 +36,7 @@ var viewModel = function(mainNavdata, sideNavData){
 	self.initializeSearch = function(){
 		ko.utils.arrayForEach(self.charts(), function (chart, i) {
 			ko.utils.arrayForEach(chart.tags(), function(tag, i){
-				if (tag in self.allTags()){
-					return;
-				} else {
+				if (self.allTags().indexOf(tag) == -1){
 					self.allTags.push(tag);
 				}
 			});
