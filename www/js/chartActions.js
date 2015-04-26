@@ -2,7 +2,7 @@ var chartActions = {
 
 	barChart : function(chart) {
 
-		initChart(chart.data()[0], chart.id(), chart.type(), chart.title.en, "Label", "Revenue", "Item-EN",["Total"]);
+		initChart(chart.data()[0], chart.id(), chart.type(), chart.title, "$", "Revenue", "Item-EN",["Total"]);
 	},
 
 	lineGraph : function(chart) {
