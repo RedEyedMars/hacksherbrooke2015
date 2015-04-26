@@ -15,13 +15,13 @@ var viewModel = function(mainNavdata, sideNavData){
 
 	self.initializeSearch = function(){
 		
-		var allTags = []; 
+		var allTags = ko.observableArray();
 
 		ko.utils.arrayForEach(self.charts(), function (chart, i) {
 			if(!($.inArray(el, allTags))) allTags.push(el);
 		});
 
-		console.log(allTags);
+		//console.log(allTags);
 	}
 
 	self.changeContext = function(navItem, navObj, evt){
