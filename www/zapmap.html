@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <title>ZapMap</title>
+
     <style>
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
       #map-canvas { height: 100% }
       h1 { position:absolute; }
     </style>
+
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="js/lib/heatmap.js-2.0/build/heatmap.js"></script>
     <script src="js/lib/heatmap.js-2.0/plugins/gmaps-heatmap.js"></script>
@@ -18,22 +20,12 @@
   </head>
   <body>
 
-
-
     <div id="map-canvas"></div>
-    
-
-
 
     <script>
-        // map options,
-        var myOptions = {
-          zoom: 13,
-          center: new google.maps.LatLng(45.4018701,-71.9000067)
-        };
-        // standard map
-        map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
-        // heatmap layer
+
+        map = new google.maps.Map(document.getElementById("map-canvas"), {zoom: 13, center: new google.maps.LatLng(45.4018701,-71.9000067)});
+
         heatmap = new HeatmapOverlay(map, 
           {
             // radius should be small ONLY if scaleRadius is true (or small radius is intended)
@@ -56,9 +48,7 @@
 
         heatmap.setData(zapData);
 
-</script>
-
-
+    </script>
 
   </body>
 </html>

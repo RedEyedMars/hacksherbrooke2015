@@ -17,24 +17,24 @@ var mainNavdata = [
 var sideNavData = [
 	{
 		"text" : "Data Visualization 1",
-		"Action" : "dataVis1"
+		"page" : "dataVis1"
 	},{
 		"text" : "Data Visualization 2",
-		"Action" : "dataVis2"
+		"page" : "dataVis2"
 	},{
 		"text" : "Data Visualization 3",
-		"Action" : "dataVis3"
+		"page" : "dataVis3"
 	},{
 		"text" : "Data Visualization 4",
-		"Action" : "dataVis4"
+		"page" : "dataVis4"
 	},{
 		"text" : "Data Visualization 5",
-		"Action" : "dataVis5"
+		"page" : "dataVis5"
 	},{
 		"text" : "Data Visualization 6",
-		"Action" : "dataVis6"
+		"page" : "dataVis6"
 	},{
 		"text" : "Data Visualization 7",
-		"Action" : "dataVis7"
+		"page" : "dataVis7"
 	}
 ];
