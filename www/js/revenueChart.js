@@ -5,7 +5,7 @@ var chartData = [
     	}
     ];
 var chart
-d3.csv("temp.csv", function(error, data){
+d3.csv("static.jordanslaman.com/hacksherbrooke2015/temp.csv", function(error, data){
 		// create an empty object that nv is expecting
 
 
