@@ -58,6 +58,10 @@ var viewModel = function(mainNavdata, sideNavData){
 		self.charts(tempArray);
 
 	}
+
+	self.initSelect = function(){
+		$('select').chosen({no_results_text: "Oops, nothing found!"});
+	}
 }
 
 var chartViewModel = function(data, i){

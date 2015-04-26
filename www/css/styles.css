@@ -17,7 +17,7 @@ header a {color:#fff;}
 .sideNavItem:hover {background-color:#fff;color:#2A2A2A;box-shadow: inset -4px 0 7px rgba(0,0,0,.3);}
 #search {
 	background-color:#585858;
-	
+	padding:10px;
 }
 
-#search input {width:80%;margin:10px 10%;border:1px solid #ccc;border-radius:4px;height:20px;}
+#search select {width:100%;border:1px solid #ccc;border-radius:4px;height:20px;}
