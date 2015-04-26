@@ -1,0 +1,88 @@
+Title-FR,Title-EN,Subtitle-FR,Subtitle-EN,Item-FR,Item-EN,pageID,id,Current year,Previous years (amortized),Total
+Revenu,Revenue,Fonctionnement,General functioning,Taxes,Taxes,4,1,191484900,,191484900
+Revenu,Revenue,Fonctionnement,General functioning,Compensations tenant lieu de taxes,Compensation in lieu of taxes,4,2,17678150,,17678150
+Revenu,Revenue,Fonctionnement,General functioning,Quotes-parts,Shares,4,3,,,
+Revenu,Revenue,Fonctionnement,General functioning,Transferts,Transfers,4,4,9468250,,9468250
+Revenu,Revenue,Fonctionnement,General functioning,Services rendus,Services rendered,4,5,174893150,,174893150
+Revenu,Revenue,Fonctionnement,General functioning,Imposition de droits,Customs and import duties,4,6,7540300,,7540300
+Revenu,Revenue,Fonctionnement,General functioning,Amendes et pénalités,Fines and penalties,4,7,6296200,,6296200
+Revenu,Revenue,Fonctionnement,General functioning,Intérêts,Interest,4,8,1400000,,1400000
+Revenu,Revenue,Fonctionnement,General functioning,Autres revenus,Other revenue,4,9,142000,,142000
+Revenu,Revenue,Fonctionnement,General functioning,Total de revenus,Total revenue,4,10,408902950,,408902950
+Revenu,Revenue,Investissement,Investment,Taxes,Taxes,4,11,,,
+Revenu,Revenue,Investissement,Investment,Quotes-parts,Quotes,4,12,,,
+Revenu,Revenue,Investissement,Investment,Transferts,Transfers,4,13,17079000,,17079000
+Revenu,Revenue,Investissement,Investment,Contributions des promoteurs,Promoter contributions,4,14,,,
+Revenu,Revenue,Investissement,Investment,Autres revenus d'investissement,Other investment revenues,4,15,62500,,62500
+Revenu,Revenue,Investissement,Investment,Quote-part dans les résultats nets d'entreprises municipales,Municipal net revenue shares,4,16,,,
+Revenu,Revenue,Investissement,Investment,Total d'investissements,Investment total,4,17,17141500,,17141500
+Revenu,Revenu,Fonctionnement + Investissement,General Function + Investment,Total cumulative,Cumalitive Total,4,18,426044450,,426044450
+Charges,Expenses,,,Administration générale,General administration,4,19,37569800,1914800,39484600
+Charges,Expenses,,,Sécurité publique,Public security,4,20,55176900,2768650,57945550
+Charges,Expenses,,,Transport,Transport,4,21,43888100,14166050,58054150
+Charges,Expenses,,,Hygiène du milieu,City cleaning,4,22,30694400,12408050,43102450
+Charges,Expenses,,,Santé et bien-être,Health and wellbeing,4,23,5386900,71700,5458600
+Charges,Expenses,,,Aménagement urbanisme et développement,Urban management and development,4,24,16981200,1932050,18913250
+Charges,Expenses,,,Loisirs et culture,Recreation and culture,4,25,33420250,3928400,37348650
+Charges,Expenses,,,Réseau d'électricité,Electrical network,4,26,128189850,7097250,135287100
+Charges,Expenses,,,Frais de financement,Financing charges,4,27,17098550,,17098550
+Charges,Expenses,,,Amortissement des immobilisations,Amortization of assets,4,28,-44286950,44286950,
+Charges,Expenses,,,Total de charges,Total costs,4,29,412692900,191484900,412692900
+Total avant conciliation à des fins fiscales,Total before conciliation for tax purposes,,,Excédent (déficit),Surplus (deficit),4,30,13351550,13351550,13351550
+Total avant conciliation à des fins fiscales,Total before conciliation for tax purposes,,,Excédent (déficit),Surplus (deficit),5,1,,,13351550
+Revenu,Revenue,Investissement,Investment,Total d'investissements,Investment total,5,2,,,17141500
+Total avant conciliation à des fins fiscales,Total before conciliation for tax purposes,,,Excédent (déficit) moins revenus d'investissement,Surplus (deficit) minus investment revenues,5,3,,,-3789950
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Immobilisations,Assets,Amortissement,Mortgages,5,4,,,44286950
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Immobilisations,Assets,Produit de cession,Proceeds from sales,5,5,,,2600000
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Immobilisations,Assets,(Gain) perte sur cession,(Gain) loss from sales,5,6,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Immobilisations,Assets,Réduction de valeur / Reclassement,Reduction in value/reclassification,5,7,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Immobilisations,Assets,Sous-total,Subtotal,5,8,,,46886950
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Propriétés destinées à la revente,Properties slated for resale,Coût des propriétés vendues,Cost of sold properties,5,9,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Propriétés destinées à la revente,Properties slated for resale,Réduction de valeur / Reclassement,Reduction in value/reclassification,5,10,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Propriétés destinées à la revente,Properties slated for resale,Sous-total,Subtotal,5,11,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,"Prêts, placements à long terme à titre d'investissement et participations dans des entreprises municipales","Loans, long-term placements, and participation in municipal enterprises",Remboursement ou produit de cession,Proceeds from sales,5,12,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,"Prêts, placements à long terme à titre d'investissement et participations dans des entreprises municipales","Loans, long-term placements, and participation in municipal enterprises",(Gain) perte sur remboursement ou sur cession,(Gain) loss from sales,5,13,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,"Prêts, placements à long terme à titre d'investissement et participations dans des entreprises municipales","Loans, long-term placements, and participation in municipal enterprises",Provision pour moins-value / Réduction de valeur,Reduction in value/reclassification,5,14,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,"Prêts, placements à long terme à titre d'investissement et participations dans des entreprises municipales","Loans, long-term placements, and participation in municipal enterprises",Sous-total,Subtotal,5,15,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Financement,Financing,Financement à long terme des activités de fonctionnement,Long-term financing for general functioning,5,16,,,10935000
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Financement,Financing,Remboursement de la dette à long terme,Reimbursement of long-term debt,5,17,,,-45944950
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Financement,Financing,Sous-total,Subtotal,5,18,,,-35009950
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Activités d'investissement,Investment activities,5,19,,,1900000
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Excédent (déficit) accumulé - Excédent (déficit) de fonctionnement non affecté,Accumulated surplus (deficit) - Unaffected surplus (deficit) for general function,5,20,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Excédent (déficit) accumulé - Excédent de fonctionnement affecté,Accumulated surplus (deficit) - Affected surplus for general functionning,5,21,,,7245000
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Excédent (déficit) accumulé - Réserves financières et fonds réservés,Accumulated surplus (deficit) - Financial reserves and reserved funds,5,22,,,-8505500
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Excédent (déficit) accumulé - Dépenses constatées à taxer ou à pourvoir,Accumulated surplus (deficit) - Expenses incurred for taxes or administration,5,23,,,-4926550
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Excédent (déficit) accumulé - Investissement net dans les immobilisations et autres actifs,Accumulated surplus (deficit) - Net investment in assets and other activities,5,24,,,
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Affectations,Attributions,Sous-total,,5,25,,,-8087050
+Conciliation a des fins fiscales,Reconciliation for tax purposes,Excédent (déficit) de fonctionnement de l'exercice à des fins fiscales,Surplus (deficit) of general function after conciliation,Total,Total,5,26,,,3789950
+,,Infrastructures,,Conduites d'eau potable,,6,1,,,7105500
+,,Infrastructures,,Usines de traitement de l'eau potable,,6,2,,,
+,,Infrastructures,,Usines et bassins d'épuration,,6,3,,,1680000
+,,Infrastructures,,Conduites d'égout,,6,4,,,7942500
+,,Infrastructures,,Sites d'enfouissement et incinérateurs,,6,5,,,
+,,Infrastructures,,"   Chemins, rues, routes et trottoirs",,6,6,,,22856000
+,,Infrastructures,,"   Ponts, tunnels et viaducs",,6,7,,,75000
+,,Infrastructures,,Système d'éclairage des rues,,6,8,,,
+,,Infrastructures,,Aires de stationnement,,6,9,,,
+,,Infrastructures,,Parcs et terrains de jeux,,6,10,,,2910000
+,,Infrastructures,,Autres infrastructures,,6,11,,,4285000
+,,Infrastructures,,Réseau d'électricité,,6,12,,,18371000
+,,Infrastructures,,Bâtiments,,6,,,,
+,,Infrastructures,,Édifices administratifs,,6,13,,,11916000
+,,Infrastructures,,Édifices communautaires et récréatifs,,6,14,,,2868500
+,,Infrastructures,,Améliorations locatives,,6,15,,,
+,,Infrastructures,,Véhicules,,6,,,,
+,,Infrastructures,,Véhicules de transport en commun,,6,16,,,
+,,Infrastructures,,Autres,,6,17,,,4060000
+,,,,Ameublement et équipement de bureau,,6,18,,,2245000
+,,,,"Machinerie, outillage et équipement divers",,6,19,,,
+,,,,Terrains,,6,20,,,1100000
+,,,,Autres,,6,21,,,
+,,,,Total,,6,22,,,87414500
+,,,,Acquisition de propriétés destinées à la revente,,6,23,,,50000
+,,,,"Émission ou acquisition de prêts, placements à long terme à titre d'investissement et participations dans des entreprises municipales",,6,24,,,
+,,,,,,6,,,,
+,,,,Police,,6,25,,,175 000
+,,,,Sécurité incendie,,6,26,,,4 460 000
+,,,,Autres,,6,27,,,250 000
+,,,,Total,,6,28,,,4 885 000
