@@ -35,12 +35,44 @@
 			</ul>
 		</nav>
 		<div id="content" class="container grid__item three-quarters">
+<style>
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+			</style>
 			<ul class="grid" data-bind="foreach: filteredCharts">
 				<li class="grid__item one-third"></li>
+
+
+
+
+			<script src="js/revenueChart.js"></script>
 			</ul>
 		</div>
 	</div>
+
 <script>
+			
 	var knockoutBindingPoint = $("body")[0];
 	var vm = new viewModel(staticData.mainNavdata, staticData.sideNavData);
 	ko.applyBindings(vm, knockoutBindingPoint);
