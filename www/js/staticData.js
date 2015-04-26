@@ -22,7 +22,10 @@ var staticData = {
 	{"text" : "Hospitals & CLSCs"},
 	{"text" : "Wireless internet"},
 	{"text" : "businesses"},
-	{"text" : "Schools"}
+	{"text" : "Schools"},
+	{"text" : "Maps"},
+	{"text" : "Restaurants & Bars"},
+	{"text" : "Walking & Biking"}
 	],
 	
 	charts : [
@@ -119,25 +122,25 @@ var staticData = {
 			{
 				"tags": ["Chart", "bar", "line", "revenue", "cost", "income", "city", "budget"],
 				"title": {"en" : "City revenues", "fr" : "Revenus de la ville"},
-				"sources" : ["res/Revenues.csv"],
+				"sources" : ["http://hacksherbrooke.jordanslaman.com/res/Revenues.csv"],
 				"type" : "bar",
 			},
 			{
 				"tags": ["Chart", "bar", "line", "revenue", "cost", "income", "city", "budget", "expenses"],
 				"title": {"en" : "City expenses", "fr" : "Depenses de la ville"},
-				"sources" : ["res/RevenuesExpenses.csv"],
+				"sources" : ["http://hacksherbrooke.jordanslaman.com/res/RevenuesExpenses.csv"],
 				"type" : "bar",
 			},
 			{
 				"tags": ["Chart", "bar", "line", "revenue", "cost", "income", "city", "budget", "expenses"],
 				"title": {"en" : "2015 budget", "fr" : "Budget 2015"},
-				"sources" : ["res/DetailedExpenses.csv"],
+				"sources" : ["http://hacksherbrooke.jordanslaman.com/res/DetailedExpenses.csv"],
 				"type" : "bar",
 			},
 			{
 				"tags": ["Chart", "infrastrucutre", "factories", "tunnels", "maintenance", "waterways", "rivers", "sewers", "egout", "water", "eau", "systeme", "eclairage", "lights", "streets", "chemins", "rues", "trottoirs", "buildings", "edifices", "batiments", "vehicles" ],
 				"title": {"en" : "Infrastructure costs and acquisitions", "fr" : "Acquisition et depenses en infrastructure"},
-				"sources" : ["res/TaxConciliation.csv"],
+				"sources" : ["http://hacksherbrooke.jordanslaman.com/res/TaxConciliation.csv"],
 				"type" : "bar",
 			}]
 };

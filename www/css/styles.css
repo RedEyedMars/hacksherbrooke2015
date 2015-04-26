@@ -27,3 +27,7 @@ h2 {margin: 14px 0 6px 0;font-size:15px;font-weight: 600;max-width: 100%;text-ov
 .chart {height:300px;margin-top:24px;}
 .chart > div, .chart > svg {height:80%;}
 #content {padding-right:24px;}
+
+svg .tick text {
+  display: none;
+}
