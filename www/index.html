@@ -44,7 +44,7 @@
 			</ul>
 		</nav>
 		<div id="content" class="container grid__item three-quarters">
-			<ul class="grid" data-bind="foreach: filteredCharts, afterRender: renderChart">
+			<ul class="grid" data-bind="foreach: {data: filteredCharts, afterAdd: afterRenderChart}">
 				<li class="chart grid__item one-third">
 					<!-- ko if: type() === "map" -->
 					<div data-bind="attr:{'id': 'map-canvas_' + id()}" class="map"></div>

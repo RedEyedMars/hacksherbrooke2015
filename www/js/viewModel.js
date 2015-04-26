@@ -62,6 +62,10 @@ var viewModel = function(mainNavdata, sideNavData){
 	self.initSelect = function(){
 		$('select').chosen({no_results_text: "Oops, nothing found!"});
 	}
+
+	self.afterRenderChart = function(t, index, chart){
+	 chart.renderChart();
+	}
 }
 
 var chartViewModel = function(data, i){
@@ -82,7 +86,7 @@ var chartViewModel = function(data, i){
 	};
 
 	self.renderChart = function(){
-
+		console.log("Render Chart Called");
 		switch (self.type()){
 			case "bar": chartActions.barChart(self);
 			break;
