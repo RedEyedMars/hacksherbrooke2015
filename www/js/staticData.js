@@ -130,7 +130,7 @@ var staticData = {
 			},
 			{
 				"tags": ["Chart", "bar", "line", "revenue", "cost", "income", "city", "budget", "expenses"],
-				"title": {"en" : "2015 budget", "fr" : "Budget 2015"},
+				"title": {"en" : "2015 Budget", "fr" : "Budget 2015"},
 				"sources" : ["http://hacksherbrooke.jordanslaman.com/res/DetailedExpenses.csv"],
 				"type" : "bar",
 			},
