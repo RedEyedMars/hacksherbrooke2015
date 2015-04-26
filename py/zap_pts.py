@@ -8,7 +8,7 @@ import csv
 import sys
 
 csvfile = open(sys.argv[1]+'.csv', 'r')
-jsfile = open('zap_pts.js', 'w')
+jsfile = open('../res/zap_pts.js', 'w')
 
 fieldnames = ("name","latitude","longitude")
 reader = csv.DictReader( csvfile, fieldnames)
