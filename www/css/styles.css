@@ -18,7 +18,7 @@ h2 {margin: 14px 0 6px 0;font-size:15px;font-weight: 600;max-width: 100%;text-ov
 .sideNavItem:hover {background-color:#fff;color:#2A2A2A;box-shadow: inset -4px 0 7px rgba(0,0,0,.3);}
 #search {
 	background-color:#585858;
-	padding:10px;
+	padding:19px;
 }
 
 #search select {width:100%;border:1px solid #ccc;border-radius:4px;height:20px;}

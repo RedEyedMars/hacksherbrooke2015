@@ -18,7 +18,7 @@ var staticData = {
 	sideNavData : [
 	{"text" : "Budget"},
 	{"text" : "Services"},
-	{"text" : "Parks & Recreation"},
+	{"text" : "Parks"},
 	{"text" : "Hospitals & CLSCs"},
 	{"text" : "Wireless internet"},
 	{"text" : "businesses"},

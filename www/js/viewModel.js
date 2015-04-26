@@ -59,11 +59,27 @@ var viewModel = function(mainNavdata, sideNavData){
 	}
 
 	self.initSelect = function(){
-		$('select').chosen({no_results_text: "Oops, nothing found!"});
+		$('select').chosen(
+			{no_results_text: "Oops, nothing found!"}
+			);
 	}
 
 	self.afterRenderChart = function(t, index, chart){
 	 chart.renderChart();
+	}
+
+	self.addTagToSearch = function(vm, e){
+		var menuItem = vm.text;
+
+		ko.utils.arrayForEach(self.allTags(), function(tag){
+			if (menuItem.toLowerCase() == tag.toLowerCase()){
+				self.selectedTags.push(tag);
+				return;
+			}
+		})
+		
+		$('select').trigger('chosen:updated');
+
 	}
 }
 
