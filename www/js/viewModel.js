@@ -10,20 +10,28 @@ var viewModel = function(mainNavdata, sideNavData){
 	self.filteredCharts = ko.observableArray();
 
 	self.allTags = ko.observableArray()
-
+	self.selectedTags = ko.observableArray();
 
 	self.searchCharts = function(){
-		// Temporary
+		var tempArray = [];
+		var tags = ko.selectedTags();
 
-		self.filteredCharts(self.charts());
-	}
+		ko.utils.arrayForEach(self.charts, function(chart){
+
+			ko.utils.arrayForEach(chart.tags(), function(tag){
+				if (tag in tags){
+					tempArray.push(chart);
+				}
+			})
+
+		})
+		// Temp
+		self.filteredCharts(tempArray);
+	};
 
 	self.initializeSearch = function(){
-
 		ko.utils.arrayForEach(self.charts(), function (chart, i) {
-			
 			ko.utils.arrayForEach(chart.tags(), function(tag, i){
-				console.log(tag in self.allTags(), tag);
 				if (tag in self.allTags()){
 					return;
 				} else {
@@ -41,7 +49,7 @@ var viewModel = function(mainNavdata, sideNavData){
 		var tempArray = [];
 
 		ko.utils.arrayForEach(staticData.charts, function(chart, i){
-			tempArray.push(new chartViewModel(chart));
+			tempArray.push(new chartViewModel(chart, i));
 
 		});
 
@@ -50,9 +58,10 @@ var viewModel = function(mainNavdata, sideNavData){
 	}
 }
 
-var chartViewModel = function(data){
+var chartViewModel = function(data, i){
 	var self = this;
 
+	self.id = ko.observable(i);
 	self.title = ko.observable(vm.siteLang() === "En" ? data.title.en : data.title.fr);
 	self.type = ko.observable(data.type);
 	self.tags = ko.observableArray(data.tags)
@@ -74,5 +83,5 @@ var chartViewModel = function(data){
 			case "line": chartActions.lineGraph(self);
 			break;
 		}
-		}
+}
 }
