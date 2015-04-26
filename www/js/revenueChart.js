@@ -1,4 +1,4 @@
-d3.csv("../../res/temp.csv", function(error, data){
+d3.csv("temp.csv", function(error, data){
 console.log(data);
 		// create an empty object that nv is expecting
     var exampleData = [
@@ -10,15 +10,15 @@ console.log(data);
 
         // populate the empty object with your data
     data.forEach(function (d){
-    	d.value = +d.value
+    	d.current_year = +d.current_year
     	exampleData[0].values.push(d)
     })       
 
  	nv.addGraph(function() {
 		
    		var chart = nv.models.discreteBarChart()
-       		.x(function (d) { return d.Item-EN })
-       		.y(function (d) { return d.Current_year })
+       		.x(function (d) { return d.Item_EN })
+       		.y(function (d) { return d.current_year })
        		.staggerLabels(true)
        		.tooltips(false)
        		.showValues(true)
