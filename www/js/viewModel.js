@@ -82,6 +82,8 @@ var chartViewModel = function(data, i){
 			break;
 			case "line": chartActions.lineGraph(self);
 			break;
+			case "map": chartActions.mapObject(self);
+			break;
 		}
 }
 }
