@@ -85,5 +85,5 @@ var chartViewModel = function(data, i){
 			case "map": chartActions.mapObject(self);
 			break;
 		}
-}
+	}
 }
