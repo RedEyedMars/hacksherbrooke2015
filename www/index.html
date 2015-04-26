@@ -38,7 +38,7 @@
 			<select type="text" data-bind="options: allTags, selectedOptions: selectedTags" size="15" multiple></select>
 		</div>
 			<ul data-bind="foreach:sideNav">
-				<li class="sideNavItem" data-bind=" click: null">
+				<li class="sideNavItem" data-bind=" click: $parent.addTagToSearch">
 				<a data-bind="text: text"></a>
 				</li>
 			</ul>
