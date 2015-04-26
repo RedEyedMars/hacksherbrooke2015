@@ -26,7 +26,7 @@
 	<div id="main" class="grid grid--full">
 		<nav class="sideNav grid__item one-quarter">
 		<div id="search">
-			<!-- <input type="text" data-bind="" /> -->
+			<input type="text" data-bind="" />
 		</div>
 			<ul data-bind="foreach:sideNav">
 				<li class="sideNavItem" data-bind=" click: $parent.changeContext.bind($data, page)">
@@ -34,14 +34,17 @@
 				</li>
 			</ul>
 		</nav>
-		<div class="container grid__item three-quarters">
-			
+		<div id="content" class="container grid__item three-quarters">
+			<ul class="grid" data-bind="foreach: filteredCharts">
+				<li class="grid__item one-third"></li>
+			</ul>
 		</div>
 	</div>
 <script>
 	var knockoutBindingPoint = $("body")[0];
-	var vm = new viewModel(mainNavdata, sideNavData);
+	var vm = new viewModel(staticData.mainNavdata, staticData.sideNavData);
 	ko.applyBindings(vm, knockoutBindingPoint);
+	vm.getCharts();
 </script>
 </body>
 </html>

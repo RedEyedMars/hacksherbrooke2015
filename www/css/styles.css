@@ -10,8 +10,14 @@ header a {color:#fff;}
 }
 .mainLogo h1 {padding-left:100px;line-height:1.5;display:block;font-size:25px;text-transform: uppercase;font-weight:300;}
 
-.sideNav {background-color:#2A2A2A;height:100%;box-shadow: inset -4px 4px 7px rgba(0,0,0,.3);}
-.sideNavItem {display:block;color:#fff;line-height:4;font-size:16px;cursor:pointer;position:relative;border-bottom:1px solid #999;padding-left:20px;}
+.sideNav {background-color:#FFC000;height:100%;box-shadow: inset -4px 4px 7px rgba(0,0,0,.3);}
+.sideNavItem {display:block;color:#fff;line-height:4;font-size:16px;cursor:pointer;position:relative;border-bottom:1px solid #FFD54F;padding-left:20px;}
 
 /*.sideNavItem span {display: block;height:100%;width:100%;}*/
 .sideNavItem:hover {background-color:#fff;color:#2A2A2A;box-shadow: inset -4px 0 7px rgba(0,0,0,.3);}
+#search {
+	background-color:#585858;
+	
+}
+
+#search input {width:80%;margin:10px 10%;border:1px solid #ccc;border-radius:4px;height:20px;}

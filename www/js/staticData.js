@@ -1,4 +1,5 @@
-var mainNavdata = [
+var staticData = {
+	mainNavdata : [
 	{
 		"text" : "Contact us",
 		"url" : "http://www.ville.sherbrooke.qc.ca/en/directory-of-services/"
@@ -12,9 +13,9 @@ var mainNavdata = [
 		"text" : "Fr",
 		"url" : "http://www.ville.sherbrooke.qc.ca/fr/"
 	}
-];
+	],
 	
-var sideNavData = [
+	sideNavData : [
 	{
 		"text" : "Data Visualization 1",
 		"page" : "dataVis1"
@@ -37,4 +38,19 @@ var sideNavData = [
 		"text" : "Data Visualization 7",
 		"page" : "dataVis7"
 	}
-];
+	],
+	charts : [
+	{
+		"tags": ["tag1", "tag2", "tag3"],
+		"title": {"en" : "Chart 1", "fr" : "Chart 1 in French"},
+		"sources" : ["urlToData"],
+		"type" : "bar"
+	},
+		{
+		"tags": ["tag1", "tag2", "tag3"],
+		"title": {"en" : "Chart 2", "fr" : "Chart 2 in French"},
+		"sources" : ["urlToData"],
+		"type" : "pie"
+	}
+	]
+};
