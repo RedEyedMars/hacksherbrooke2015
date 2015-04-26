@@ -23,5 +23,5 @@ header a {color:#fff;}
 #search select {width:100%;border:1px solid #ccc;border-radius:4px;height:20px;}
 
 
-.chart {height:180px;}
+.chart {height:180px;margin-top:24px;}
 .chart > div, .chart > svg {height:100%;}
