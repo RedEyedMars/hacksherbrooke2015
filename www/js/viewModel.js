@@ -78,7 +78,7 @@ var chartViewModel = function(data, i){
 		var tempArray = [];
 
 		ko.utils.arrayForEach(data.sources, function(vm, i){
-			tempArray.push($.getScript(data.sources[i]));
+			tempArray.push(data.sources[i]);
 		});
 
 		return tempArray;
