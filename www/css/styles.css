@@ -10,7 +10,8 @@ header a {color:#fff;}
 }
 .mainLogo h1 {padding-left:100px;line-height:1.5;display:block;font-size:25px;text-transform: uppercase;font-weight:300;}
 h2 {margin: 14px 0 6px 0;font-size:15px;font-weight: 600;max-width: 100%;text-overflow:ellipsis;}
-
+header nav {background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAAAlCAMAAAD8xWwbAAAAw1BMVEUpLjL///9VfbuV0dR7ze4ihsXnZVDhRpE5b7L2xr7X7PX5/P3r8vjk8fn9/v/++vuQw+KCu96n2dxMndDy+vxpjMT1u7HzsKbrfGrN7Pm85vee2/OI0vCt0unB5Oad1deB0O/L6erJ1+q24OKqwN6Coc7g7fNvsdpcptUzj8rP3u6+zuWbyeXsgXCs4PWVr9XxqMt4m8tqkMXpb1uR1fH3zeH0vNfztdNbgr7ribhFd7fpfbLnbqn76fL52dT519Jdg76gZa6EAAACJklEQVRYw+3X73OaMBzH8X0GtkoEEZ0VAVFRQau17bqt+73//6/al2Rn3V0Ibik+yvuB8CB33OtCQnxjMpku3FtlYoytTIy5UibGtJSJMZYyMQbKjM3YjM3YjO2/bM/L7XZxaNq2Sbb55W0LUMumbT7AzrEFgbhMp4G+7dkDFotVpW1mi+6cMLKjmdQ2HnWOjfZSWw6s622pA8zpOgfgBdq2d0BXtd6ciF9CUMMwltnGPZzUG0vXW5Fvam1pFwCzrAxl08ZtQ29CkxWD50rn7QZlR+CNdL35fr81oJ9NvtsVclswRFlgrfnNXGpjy4cVX0YfPn+97yltt+BVv5MhTdckisAjWqVt3IFoJLMNAKfVB7oOKF9uczL2Z75KXCazeY9tagl8uqa+9c6wPVTaJgzHmK2wvb/a/6i3kQ7UoGIvmYv5Sj2ASfeS23bZF9a75n1U2R4P9LTV6lelzcVLrtJGd516W9Eq6LdfYQvKpwjiVGo7tHnud2G711pvTwzHJjXz9vOMd5Luaeb8qm8AA7w08GigpTlv9bbTl5LFtvZ6c+neVdjK5VhuJSywqPr1pmeLvL+nrX6f1LFlEImNpH6f1LFRcQheaPPqv286ttR7+bY1/X2LozuHP86bVJ+59qfnEqJp2CxH0Bq3ibMW4yeSJ92zcuK3iiTZ0f0uSfJKWzpEN7NeybZeb1U2Ko5nl/yPk5r/b8ZmbMZmbMb2LzaTyXTRfgNOtWLdrANv9AAAAABJRU5ErkJggg==') no-repeat right center;}
+.topNav > .grid {padding-left:92px !important;padding-right:83px;}
 .sideNav {background-color:#FFC000;height:100%;box-shadow: inset -4px 4px 7px rgba(0,0,0,.3);}
 .sideNavItem {display:block;color:#fff;line-height:4;font-size:16px;cursor:pointer;position:relative;border-bottom:1px solid #FFD54F;padding-left:20px;}
 
