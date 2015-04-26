@@ -1,0 +1,21 @@
+Title-FR,Title-EN,Subtitle-FR,Subtitle-EN,Item-FR,Item-EN,pageID,id,Total
+Revenu,Revenue,Fonctionnement,General functioning,Taxes,Taxes,4,1,191484900
+Revenu,Revenue,Fonctionnement,General functioning,Compensations tenant lieu de taxes,Compensation in lieu of taxes,4,2,17678150
+Revenu,Revenue,Fonctionnement,General functioning,Transferts,Transfers,4,4,9468250
+Revenu,Revenue,Fonctionnement,General functioning,Services rendus,Services rendered,4,5,174893150
+Revenu,Revenue,Fonctionnement,General functioning,Imposition de droits,Customs and import duties,4,6,7540300
+Revenu,Revenue,Fonctionnement,General functioning,Amendes et pénalités,Fines and penalties,4,7,6296200
+Revenu,Revenue,Fonctionnement,General functioning,Intérêts,Interest,4,8,1400000
+Revenu,Revenue,Fonctionnement,General functioning,Autres revenus,Other revenue,4,9,142000
+Revenu,Revenue,Fonctionnement,General functioning,Total de revenus,Total revenue,4,10,408902950
+Revenu,Revenue,Investissement,Investment,Transferts,Transfers,4,13,17079000
+Revenu,Revenue,Investissement,Investment,Autres revenus d'investissement,Other investment revenues,4,15,62500
+Charges,Expenses,,,Administration générale,General administration,4,19,-39484600
+Charges,Expenses,,,Sécurité publique,Public security,4,20,-57945550
+Charges,Expenses,,,Transport,Transport,4,21,-58054150
+Charges,Expenses,,,Hygiène du milieu,City cleaning,4,22,-43102450
+Charges,Expenses,,,Santé et bien-être,Health and wellbeing,4,23,-5458600
+Charges,Expenses,,,Aménagement urbanisme et développement,Urban management and development,4,24,-18913250
+Charges,Expenses,,,Loisirs et culture,Recreation and culture,4,25,-37348650
+Charges,Expenses,,,Réseau d'électricité,Electrical network,4,26,-135287100
+Charges,Expenses,,,Frais de financement,Financing charges,4,27,-17098550

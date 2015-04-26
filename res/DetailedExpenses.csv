@@ -1,0 +1,20 @@
+Title-FR,Title-EN,Item-FR,Item-EN,pageID,id,Current year
+Infrastructures,Infrastructure,Conduites d'eau potable,Potable water pipes,6,1,-7105500
+Infrastructures,Infrastructure,Usines et bassins d'épuration,Factories and purification,6,3,-1680000
+Infrastructures,Infrastructure,Conduites d'égout,Sewers,6,4,-7942500
+Infrastructures,Infrastructure,"Chemins, rues, routes et trottoirs","Roads, streets, and sidewalks",6,6,-22856000
+Infrastructures,Infrastructure,"Ponts, tunnels et viaducs","Bridges, tunnels, and viaducts",6,7,-75000
+Infrastructures,Infrastructure,Parcs et terrains de jeux,Parks and sports fields,6,10,-2910000
+Infrastructures,Infrastructure,Autres infrastructures,Other infrastructure,6,11,-4285000
+Reseau d'electricite,Electrical network,Réseau d'électricité,Electrical networks,6,12,-18371000
+Batiments,Buildings,Édifices administratifs,Administrative buildings,6,13,-11916000
+Batiments,Buildings,Édifices communautaires et récréatifs,Community and recreation buildings,6,14,-2868500
+Vehicules,Vehicles,Vehicules transport en commun,Public transit vehicles,6,16,0
+Vehicules,Infrastructure,Autres vehicules,Other vehicles,6,17,-4060000
+Infrastructures,Infrastructure,Ameublement et équipement de bureau,Furniture and office equipment,6,18,-2245000
+Terrains,Land & Property,Terrains,Land,6,20,-1100000
+Terrains,Land & Property,Acquisition de propriétés destinées à la revente,Property slated for resale,6,23,-50000
+Services,Services,Police,Police,6,25,-175000
+Services,Services,Sécurité incendie,Fire security,6,26,-4460000
+Services,Services,Autres services,Other services,6,27,-250000
+Services municipaux,Municipal services,Eau,Water,,21,-10425300
