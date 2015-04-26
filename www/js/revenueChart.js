@@ -21,8 +21,8 @@ d3.csv("temp.csv", function(error, data){
        		.x(function (d) { return d.Item_EN })
        		.y(function (d) { return d.current_year })
        		.staggerLabels(true)
-       		.tooltips(false)
-       		.showValues(true)
+       		.tooltips(true)
+       		.showValues(false)
  
  	  	d3.select('#chart')
     			.datum(chartData)
@@ -36,14 +36,14 @@ d3.csv("temp.csv", function(error, data){
 
  });
 
-function changeChart(csvFile){
+function changeChart(csvFile, yFieldName){
   d3.csv(csvFile, function(error, data){
 		// create an empty object that nv is expecting
 
     chartData[0].values.length = 0;
         // populate the empty object with your data
     data.forEach(function (d){
-    	d.current_year = +d.current_year
+    	d[yFieldName] = +d[yFieldName]
     	chartData[0].values.push(d)
     }) 
     chart.update();
