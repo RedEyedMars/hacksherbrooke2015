@@ -12,6 +12,8 @@ var chartActions = {
 
 	mapObject : function(chart) {
 
+		console.log(chart);
+
 		map = new google.maps.Map(document.getElementById("map-canvas_"+chart.id()), {zoom: 13, center: new google.maps.LatLng(45.4018701,-71.9000067)});
 
 		if (chart.id() == 0){
