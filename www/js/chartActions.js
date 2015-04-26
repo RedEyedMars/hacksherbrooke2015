@@ -1,20 +1,20 @@
+var chartActions = {
 
-var barChart = function() {
-
-
-};
-
-var lineGraph = function() {
+	barChart : function(chart) {
 
 
-};
+	},
 
-var mapObject = function() {
-	map = new google.maps.Map(document.getElementById("map-canvas_"+charts[i]), {zoom: 13, center: new google.maps.LatLng(45.4018701,-71.9000067)});
+	lineGraph : function(chart) {
 
 
-	switch (charts[i]){
-		case 1: 
+	},
+
+	mapObject : function(chart) {
+
+		map = new google.maps.Map(document.getElementById("map-canvas_"+chart.id()), {zoom: 13, center: new google.maps.LatLng(45.4018701,-71.9000067)});
+
+		if (chart.id() == 0){
 		    heatmap = new HeatmapOverlay(map, 
 		      {
 		        // radius should be small ONLY if scaleRadius is true (or small radius is intended)
@@ -35,14 +35,13 @@ var mapObject = function() {
 		      }
 		    );
 			heatmap.setData(zapData);
-		break;
-		case 2: ;
-		break;
-		case 3: ;
-		break;
+		} else {
+			var mapLayer = new google.maps.KmlLayer({
+		    url: chart.source()[0]
+		  });
+		  mapLayer.setMap(map);
+		}
+
 	}
 
-
-
-
-};
+}

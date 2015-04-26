@@ -79,7 +79,7 @@ var chartViewModel = function(data, i){
 		return tempArray;
 	};
 
-		self.renderChart = function(){
+	self.renderChart = function(){
 
 		switch (self.type()){
 			case "bar": chartActions.barChart(self);
