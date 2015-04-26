@@ -9,19 +9,28 @@ var viewModel = function(mainNavdata, sideNavData){
 
 	self.filteredCharts = ko.observableArray();
 
-	self.searchCharts = function(){
+	self.allTags = ko.observableArray()
 
+
+	self.searchCharts = function(){
+		// Temporary
+
+		self.filteredCharts(self.charts());
 	}
 
 	self.initializeSearch = function(){
-		
-		var allTags = ko.observableArray();
 
 		ko.utils.arrayForEach(self.charts(), function (chart, i) {
-			if(!($.inArray(el, allTags))) allTags.push(el);
+			
+			ko.utils.arrayForEach(chart.tags(), function(tag, i){
+				console.log(tag in self.allTags(), tag);
+				if (tag in self.allTags()){
+					return;
+				} else {
+					self.allTags.push(tag);
+				}
+			});
 		});
-
-		//console.log(allTags);
 	}
 
 	self.changeContext = function(navItem, navObj, evt){
@@ -56,4 +65,14 @@ var chartViewModel = function(data){
 
 		return tempArray;
 	};
+
+		self.renderChart = function(){
+
+		switch (self.type()){
+			case "bar": chartActions.barChart(self);
+			break;
+			case "line": chartActions.lineGraph(self);
+			break;
+		}
+		}
 }

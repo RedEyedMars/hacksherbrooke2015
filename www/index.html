@@ -27,7 +27,7 @@
 	<div id="main" class="grid grid--full">
 		<nav class="sideNav grid__item one-quarter">
 		<div id="search">
-			<select type="text" data-bind="template: {name: vm.allTags, foreach: vm.allTags}" size="15" multiple="true"/>
+			<select type="text" data-bind="options: allTags" size="15" multiple="true"/>
 		</div>
 			<ul data-bind="foreach:sideNav">
 				<li class="sideNavItem" data-bind=" click: null">
