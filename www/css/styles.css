@@ -22,12 +22,11 @@ header a {color:#fff;}
 
 #search select {width:100%;border:1px solid #ccc;border-radius:4px;height:20px;}
 
-<<<<<<< HEAD
+
 .chart {height:180px;}
 .chart > div, .chart > svg {height:100%;}
-=======
+
 .map {
 	min-height:630px;
 	width:1260px;
 }
->>>>>>> origin/master
