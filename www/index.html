@@ -37,16 +37,17 @@
 			</ul>
 		</nav>
 		<div id="content" class="container grid__item three-quarters">
+			<ul class="grid" data-bind="foreach: filteredCharts">
+				<li class="grid__item one-third"></li>
 <style>
-.bar {
-  fill: steelblue;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
 }
 
-.bar:hover {
-  fill: brown;
-}
-
-.axis {
+text {
   font: 10px sans-serif;
 }
 
@@ -57,17 +58,12 @@
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
-  display: none;
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
-
-			</style>
-			<ul class="grid" data-bind="foreach: filteredCharts">
-				<li class="grid__item one-third"></li>
-
-
-
-
+</style>
 			<script src="js/revenueChart.js"></script>
 			</ul>
 		</div>
