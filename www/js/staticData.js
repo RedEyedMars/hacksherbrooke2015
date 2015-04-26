@@ -21,7 +21,7 @@ var staticData = {
 	{"text" : "Parks"},
 	{"text" : "Hospitals & CLSCs"},
 	{"text" : "Wireless internet"},
-	{"text" : "businesses"},
+	{"text" : "Businesses"},
 	{"text" : "Schools"},
 	{"text" : "Maps"},
 	{"text" : "Restaurants & Bars"},
