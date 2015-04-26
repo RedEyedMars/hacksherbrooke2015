@@ -16,6 +16,15 @@ var viewModel = function(mainNavdata, sideNavData){
 		self.searchCharts();
 	});
 
+	self.langToggle = function(a, b, c){
+console.log(a);
+console.log(b);
+
+console.log(c);
+
+
+	}
+
 	self.searchCharts = function(){
 		var tempArray = [];
 		var tags = self.selectedTags();
@@ -41,6 +50,8 @@ var viewModel = function(mainNavdata, sideNavData){
 				}
 			});
 		});
+
+
 	}
 
 	self.changeContext = function(navItem, navObj, evt){
@@ -73,10 +84,10 @@ var viewModel = function(mainNavdata, sideNavData){
 
 		ko.utils.arrayForEach(self.allTags(), function(tag){
 			if (menuItem.toLowerCase() == tag.toLowerCase()){
-				self.selectedTags.push(tag);
+				self.selectedTags(new Array(tag));
 				return;
 			}
-		})
+		});
 		
 		$('select').trigger('chosen:updated');
 
