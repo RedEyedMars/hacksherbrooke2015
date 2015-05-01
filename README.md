@@ -8,4 +8,4 @@ Most of these proesses are fully automated by python scripts in ./py/, and could
 
 The application itself is static, written in javascript with the knockout framework, with dynamic data visualizations built with python (http://pandas.pydata.org/) and D3 (http://d3js.org/).
 
-To get started simply navigate to the index.html document in your browser, or visit hacksherbrooke.jordanslaman.com!
+To get started simply navigate to the index.html document in your browser, or visit http://hacksherbrooke.jordanslaman.com !
